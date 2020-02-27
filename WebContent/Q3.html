@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Q3</title>
+</head>
+<body>
+<script>
+var userSel = "9";
+var usrEnterNum = 0 ;
+while ( userSel != '0')
+	{
+	 userSel = window.prompt("Please make a choice:\n\n\
+			 0. Exit\n\
+			 1. Power of 2\n\
+			 2. Square root\n\
+			 3. Floor of a number.") ;
+ 
+			switch ( userSel ){
+				case '0':
+					alert("Thank you, good bye");
+					break;
+				case '1':
+					usrEnterNum  = Number(prompt("Power Calculator\n\nPlease input a number"));
+			         alert(usrEnterNum + " to the power of 2 "+ " = " + Math.pow(usrEnterNum,2)); 
+			         break;
+				case '2':
+					usrEnterNum  = Number(prompt("Square root Calculator\n\nPlease input a number"));
+					alert("Square root of " + usrEnterNum + " = " + Math.sqrt(usrEnterNum));
+					break;
+				case '3':
+					usrEnterNum  = Number(prompt("Floor of Number Calculator\n\nPlease input a number"));
+					alert("The floor of " + usrEnterNum + " = " + Math.floor(usrEnterNum));		
+					break;
+				default :
+					alert("Invalid choice")
+			}
+ 					
+	}
+
+
+
+</script>
+</body>
+</html>
