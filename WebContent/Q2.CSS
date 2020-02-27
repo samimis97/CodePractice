@@ -18,3 +18,22 @@ table{
     margin-right: auto;
 	
 }
+td {
+	color : white;
+	border: 0.5px dotted white;
+    font-weight:bold;
+}
+.reset{
+	color:red
+}
+
+button:hover{
+	color:blue;
+	font-weight:bold;
+
+	}
+
+tr:last-child
+{
+	text-align: center;
+}
